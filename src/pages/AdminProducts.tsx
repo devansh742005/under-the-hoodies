@@ -278,7 +278,7 @@ const AdminProducts = () => {
                     <div className="flex-1">
                       <h3 className="font-semibold text-foreground">{product.name}</h3>
                       <p className="text-sm text-muted-foreground line-clamp-2">{product.description}</p>
-                      <p className="font-bold text-primary mt-1">${product.price}</p>
+                      <p className="font-bold text-primary mt-1">*{product.price}</p>
                     </div>
                     <div className="flex flex-col gap-2">
                       <Button variant="outline" size="sm" onClick={() => handleEdit(product)}>
