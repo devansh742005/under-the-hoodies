@@ -123,7 +123,7 @@ const Checkout = () => {
                 <p className="font-semibold">{product.name}</p>
                 <p className="text-sm text-muted-foreground">Size: {size}</p>
               </div>
-              <p className="text-2xl font-bold text-primary">${product.price}</p>
+              <p className="text-2xl font-bold text-primary">*{product.price}</p>
             </div>
           </CardContent>
         </Card>
