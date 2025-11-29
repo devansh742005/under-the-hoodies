@@ -73,10 +73,11 @@ const Shop = () => {
                 <CardContent className="pt-4">
                   <h3 className="text-xl font-semibold mb-2 text-foreground">{product.name}</h3>
                   <p className="text-muted-foreground line-clamp-2 mb-3">{product.description}</p>
-                  <p className="text-2xl font-bold text-primary">${product.price}</p>
+                 <p className="text-2xl font-bold text-primary">*{product.price}</p>
+
                 </CardContent>
                 <CardFooter>
-                  <Link to={`/product/${product.id}`} className="w-full">
+                  <Link to={`/product/*{product.id}`} className="w-full">
                     <Button className="w-full">View Details</Button>
                   </Link>
                 </CardFooter>
