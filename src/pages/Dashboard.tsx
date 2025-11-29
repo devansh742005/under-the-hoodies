@@ -100,7 +100,7 @@ const Dashboard = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Price</p>
-                      <p className="font-semibold text-primary">*{order.products.price}</p>
+                      <p className="font-semibold text-primary">${order.products.price}</p>
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Order Date</p>
